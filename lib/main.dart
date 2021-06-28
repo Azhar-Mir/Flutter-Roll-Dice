@@ -61,11 +61,15 @@ class _DicePageState extends State<DicePage> {
             ),
           ),
           // Expanded(
-          //   child: TextButton(
-          //     onPressed: () {
-          //       randomNumber();
-          //     },
-          //     child: Image.asset('images/dice$rightDiceNo.png'),
+          //   child: Padding(
+          //     padding: const EdgeInsets.all(26.0),
+          //     child: TextButton(
+          //       onPressed: () {
+          //         HapticFeedback.heavyImpact();
+          //         randomNumber();
+          //       },
+          //       child: Image.asset('images/dice$rightDiceNo.png'),
+          //     ),
           //   ),
           // ),
         ],
